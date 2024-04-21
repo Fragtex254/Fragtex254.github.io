@@ -7,13 +7,13 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
-  lang: 'en',
+  title: 'Fragtex_Blog',
+  subtitle: 'Always Booming!',
+  lang: 'zh',
   themeHue: 250,
   banner: {
-    enable: false,
-    src: 'assets/images/demo-banner.png',
+    enable: true,
+    src: 'assets/images/banner.jpg',
   },
 }
 
@@ -24,16 +24,16 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About,
     {
       name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/Fragtex254',
       external: true,
     },
   ],
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/avatar.jpg',
+  name: 'Fragtex Choi',
+  bio: '天分太浅 只敢认真',
   links: [
     {
       name: 'Twitter',
@@ -42,8 +42,8 @@ export const profileConfig: ProfileConfig = {
     },
     {
       name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      icon: 'fa6-brands:bilibili',
+      url: 'https://bilibli.com',
     },
     {
       name: 'GitHub',
